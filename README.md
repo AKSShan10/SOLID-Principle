@@ -15,3 +15,22 @@ Enhances Readability – Code is more structured and easier to understand.
 Reduces Coupling – Modifying one responsibility does not affect another.
 
 Supports Reusability – A well-defined class can be reused in different contexts.
+
+
+
+**Open Closed Principle:**
+The Open/Closed Principle (OCP) is the second principle in SOLID and states that:
+
+Software entities (classes, modules, functions) should be open for extension but closed for modification.
+
+What does it mean?
+Open for extension → You should be able to add new functionality without modifying existing code.
+
+Closed for modification → Once a class is written and tested, you shouldn’t have to modify it for new features.
+
+Why is OCP Important?
+Avoids breaking existing code – Since modifications are not made to existing classes, there is less risk of introducing bugs.
+
+Supports scalability – New features can be added without changing existing implementations.
+
+Encourages maintainability – Easier to update and manage large systems.
